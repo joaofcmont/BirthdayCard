@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VisitCards</string>
+    <string name="title">Full Name</string>
+    <string name="second_title">Title</string>
+    <string name="number">+00 (00) 000 000</string>
+    <string name="socials"> "@"socialme</string>
+    <string name="email">email@domail.com</string>
+
+</resources>
