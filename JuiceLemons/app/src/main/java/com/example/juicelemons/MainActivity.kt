@@ -83,7 +83,7 @@ fun LemonadeImageAndText(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.padding(10.dp))
         Text(
             text = textShowed
-            , fontSize = 16.sp)}
+            , fontSize = 18.sp)}
 
 
     }
