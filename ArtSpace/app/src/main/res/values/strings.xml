@@ -2,4 +2,15 @@
     <string name="app_name">Art Space</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
+    <string name="image1">Star War, Almost</string>
+    <string name="image1_description">Mariana Crespo (2023)</string>
+
+    <string name="image2">Nature in Practice</string>
+    <string name="image2_description">Luis Severo (2018)</string>
+
+    <string name="image3">Drawings, a lot of them</string>
+    <string name="image3_description">Capitão Iglo (1923)</string>
+
+
+
 </resources>
