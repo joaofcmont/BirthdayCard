@@ -22,8 +22,6 @@ https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/785f0026-8dfb-40e
 ---------------------------------------------------------------
 
 
-
-
 <h2> Tip Calculator ➗ </h2>
 
 App to calculate the tip 
@@ -34,7 +32,8 @@ https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/ef20e762-f694-4d3
 
 <h2> Art Space 🧑‍🎨</h2>
 
-<center>Uploading artSpace.mov… </center>
+https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/d2f86a75-772b-4828-a1a0-077ef5d63c46
+
 
 
 
