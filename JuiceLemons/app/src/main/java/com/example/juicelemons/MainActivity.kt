@@ -1,7 +1,6 @@
 package com.example.juicelemons
 
 import android.os.Bundle
-import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,14 +10,10 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentSize
-import androidx.compose.material3.Button
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -43,11 +38,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun LemonadeImageAndText(modifier: Modifier = Modifier) {
-    var tapCount by remember { mutableStateOf(0) }
+    var tapCount by remember { mutableIntStateOf(0) }
     var result by remember {
         mutableIntStateOf(1)
     }
-    var requiredTaps by remember { mutableStateOf((1..3).random()) }
+    var requiredTaps by remember { mutableIntStateOf((1..3).random()) }
 
     val imageResource = when(result){
         1 -> R.drawable.lemon_tree
@@ -89,10 +84,12 @@ fun LemonadeImageAndText(modifier: Modifier = Modifier) {
     }
 
 
-@Preview()
+@Preview(showBackground = true)
 @Composable
 fun LemonadeApp() {
+    JuiceLemonsTheme {
         LemonadeImageAndText(modifier = Modifier
             .fillMaxSize()
             .wrapContentSize(Alignment.Center))
+    }
 }
