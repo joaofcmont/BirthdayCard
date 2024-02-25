@@ -1,7 +1,5 @@
 
-https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/27e16dd9-be7e-4376-bfee-1c55f017acf4
 <h1>This are some simple projects that i build to understand the fundamentals of Jetpack Compose </h1>
-
 
 <h2>Dice Roller 🎲</h2>
 
@@ -25,8 +23,6 @@ https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/785f0026-8dfb-40e
 <h2> Tip Calculator ➗ </h2>
 
 App to calculate the tip 
-![Captura de ecrã 2024-02-24, às 14 04 26](https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/8169cd78-5450-400c-af97-f186425cb621)
-
 
 https://github.com/joaofcmont/Kotlin-Projects/assets/114676364/ef20e762-f694-4d34-bb14-9387a97c649f
 
